@@ -1,4 +1,3 @@
-
 from flask import Flask, request, send_file
 from docxtpl import DocxTemplate
 import tempfile
@@ -32,3 +31,4 @@ def generate_report():
 # Важно: Render требует слушать переменную PORT
 port = int(os.environ.get("PORT", 5000))
 app.run(host="0.0.0.0", port=port)
+
