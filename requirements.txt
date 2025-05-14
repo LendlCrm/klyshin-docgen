@@ -1,0 +1,6 @@
+requests
+gspread
+docxtpl
+python-docx
+pdfkit
+google-auth
